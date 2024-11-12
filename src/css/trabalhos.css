@@ -1,0 +1,28 @@
+#trabalhos{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trabalhos{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img-trabalhos{
+    width:304px;
+    height: 280px;
+    border:7px solid #f2ac29;
+    margin: 3px;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.img-trabalhos:hover{
+    filter: grayscale(0%);
+    transition: filter 0.5s;
+}

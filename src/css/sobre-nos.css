@@ -1,0 +1,21 @@
+#container-somos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#sobre-nos {
+    margin-top: 50px !important; /* Adiciona bastante espaço acima do título */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#texto-quem-somos p {
+    line-height: 21px;
+    font-size: clamp(1em, 1em + 1vw, 1.4em);
+    margin-bottom: 15px;
+    padding: 20px;
+}

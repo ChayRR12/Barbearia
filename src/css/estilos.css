@@ -1,0 +1,57 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(sobre-nos.css);
+@import url(servicos.css);
+@import url(trabalhos.css);
+@import url(contatos.css);
+@import url(nav-menu.css);
+@import url(agendamento.css);
+@import url(login.css);
+@import url(telaAdm.css);
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+  
+}
+
+h2{
+    font-size: 40px;
+    color: #f2ac29;
+}
+
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+span{
+    color: #f2ac29;
+}
+
+#sobre-nos{
+    margin-top: 20px;
+}
+
+h3{
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#assinatura{
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#voltar-topo{
+    padding: 20px;
+    float: right;
+    height: 40px;
+    margin-top: -125px;
+}

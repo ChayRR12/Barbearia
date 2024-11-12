@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: center;  
+}
+
+ul{
+    margin-left:-35px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+
+.material-symbols-outlined{
+    color:#f2ac29;
+    font-size: 1.4em;
+    margin:auto;
+    cursor: pointer;
+    margin-left: 120px ;
+}

@@ -1,0 +1,67 @@
+/* CSS da seção de agendamento */
+section#agendamento {
+    padding: 20px;
+    width: 100%; /* Mantém a largura da seção em 100% */
+    margin: 0; /* Remover margens automáticas */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    background-color: #f2ac29; /* Cor de fundo da seção */
+    
+}
+
+#agenda {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #000; /* Título em preto */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o formulário */
+    width: 100%; /* Formulário ocupa toda a largura da seção */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #fff; /* Rótulos em branco */
+}
+
+input[type="text"],
+input[type="datetime-local"],
+select {
+    padding: 5px;
+    margin-bottom: 10px; /* Espaço entre os inputs */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100% !important; /* Inputs ocupam toda a largura do formulário */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    line-height: 1.5; /* Ajuste do line-height */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5680a !important; /* Cor de fundo do botão */
+    color: #fff; /* Texto do botão em branco */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo ao passar o mouse */
+}
+
+button:hover {
+    background-color: #f18842 !important; /* Cor do botão ao passar o mouse */
+}
+
+section#agendamento button:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: none; /* Remove qualquer sombra que possa estar afetando a cor */
+}
